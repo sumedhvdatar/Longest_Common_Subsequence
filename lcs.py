@@ -77,7 +77,8 @@ final_sequence = []
 print "We are sending row "+str(row)
 print "We are sending column "+str(column)
 result = get_sequence(row-1,column-1)
-print final_sequence
+s3 = "".join(str(x) for x in final_sequence)
+print s3[::-1]
 
 
 
